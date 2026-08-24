@@ -55,3 +55,24 @@ Possible extensions:
 - Weather correlation analysis
 - Machine learning prediction models
 - Additional transit systems
+
+## Data Processing
+
+The raw dataset was transformed into an analysis-ready dataset by:
+- Cleaning and standardizing fields
+- Creating date-based features
+- Adding weekday/week number attributes
+- Calculating normalized ridership values for agency comparison
+
+The processed dataset is stored in:
+`data/processed/transit_data_cleaned.csv`
+
+## Visualizations
+
+### Ridership Trends Over Time
+
+![Ridership Trends](visuals/output.png)
+
+### Agency Comparison
+
+![Agency Comparison](visuals/output2.png)
